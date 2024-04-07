@@ -1,3 +1,4 @@
+This example uses code from https://docs.rs/zune-png/latest/zune_png/fn.post_process_image.html to demonstrate issues in zune_png's apng example.
 
 
 Please run:
