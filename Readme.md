@@ -8,3 +8,9 @@ Please run:
 Frames 2 and 19 have artifacts.
 
 Animated_PNG_example_bouncing_beach_ball.png taken from https://commons.wikimedia.org/wiki/File:Animated_PNG_example_bouncing_beach_ball.png, public domain
+
+
+
+
+![](out/2.png "Frame 2")
+![](out/19.png "Frame 19")

@@ -54,7 +54,7 @@ fn main() {
 
         let bytes = zune_png::PngEncoder::new(&output, encoder_opts).encode();
 
-        std::fs::write(format!("./{i}.png"), bytes).unwrap();
+        std::fs::write(format!("./out/{i}.png"), bytes).unwrap();
         // this is expensive, but we need a copy of the previous fully rendered frame
         // we can alleviate this since we are using the same output, so DisposeOP::None will always be the
         // same as DisposeOp::Previous, but only works for this example.
