@@ -1,9 +1,8 @@
-use std::{fs::File, io::Read};
 
-use zune_core::options::EncoderOptions;
+use zune_png::zune_core::options::EncoderOptions;
 use zune_png::{post_process_image, PngDecoder};
+use zune_png::zune_core::bytestream::ZCursor;
 fn main() {
-    use zune_core::bytestream::ZCursor;
 
     let apng_path = std::env::args()
         .into_iter()
