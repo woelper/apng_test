@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-zune-core = "0.4.12"
-zune-png = "0.4.10"
+zune-png = "0.5.0-rc0"
+zune-core = "0.5.0-rc0"
